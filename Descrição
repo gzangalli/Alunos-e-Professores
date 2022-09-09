@@ -1,0 +1,32 @@
+Implemente uma hierarquia de classes para representar alunos e professores de uma Escola (você vai precisar de três classes!)
+
+As informações gerais para representar as pessoas são: nome e idade.
+
+Além destes, inclua também os seguintes atributos:
+
+a) para alunos : um atributo (int) que mantém o seu número de matrícula;
+b) professores : um atributo (double) que indica sua carga horária;
+
+Outros detalhes:
+
+    organize as classes em uma hierarquia e use classe abstrata onde for conveniente
+    matenha o encapsulamento dos atributos
+    inclua um construtor com parâmetros em cada uma das classes na Hierarquia, inicializando os atributos previstos na classe
+    inclua getters e setters para os atributos
+
+Tanto objetos do tipo Aluno quanto objetos do tipo Professor devem ter implementações do seguinte método  (você deve obedecer esta especificação!) :
+
+String apresenta( )
+
+O método retorna:
+
+    para um Aluno : um String contendo o nome, a idade e o número de matrícula
+    para um Professor : um String contendo o nome, a idade e a carga horária
+
+Implemente uma interface de usuário oferecendo opções para SOMENTE 
+
+    Cadastrar alunos (informando todos os atributos)
+    Cadastrar professores (informando todos os atributos)
+    Apresentar todos os alunos e professores cadastrados usando o método apresenta( )
+
+Obs.: Os objetos Aluno e Professor devem ser mantidos em uma única estrutura de dados (pode ser um array). Ou seja, objetos Aluno e objetos Professor estarão no mesmo array (ou outra estrutura que você escolher)
